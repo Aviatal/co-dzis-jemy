@@ -21,9 +21,20 @@
 </head>
 <body>
     <div id="app">
+        <nav class="navbar bg-body-secondary">
+            <div class="container-xl">
+                <span class="text-secondary fw-bold">
+                    <a class="navbar-brand" href="#">
+                        <i class="fa-solid fa-pizza-slice"></i>
+                        Co dziś jemy?
+                    </a>
+                </span>
+            </div>
+        </nav>
         <main class="py-4">
             @yield('content')
         </main>
     </div>
+    <script src="https://kit.fontawesome.com/b3862b9e8a.js" crossorigin="anonymous"></script>
 </body>
 </html>
